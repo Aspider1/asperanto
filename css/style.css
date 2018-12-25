@@ -31,6 +31,13 @@ body {
     background-color: #ddd;
 }
 
+.a-fastFunc-login {
+    border: 3px solid #343a40;
+    border-radius: 0px;
+    background-color: #ccc;
+    color: #343a40 !important;
+}
+
 .btn-role {
     border: 3px solid #343a40;
     border-radius: 0px;
@@ -62,7 +69,8 @@ a:focus {
     box-shadow: none !important;
 }
 
-button {
+button,
+a {
     text-decoration: none !important;
 }
 
