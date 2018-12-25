@@ -1,0 +1,145 @@
+html,
+body {
+    height: 100%;
+    background-color: #c5c5c5;
+}
+
+.nav-icons {
+    font-size: 1.7rem;
+}
+
+.main-icons {
+    font-size: 5rem;
+}
+
+.border-l {
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+.border-r {
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.border-t {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.card-main-menu {
+    margin-right: 7rem;
+    margin-left: 7rem;
+    border: 3px solid #343a40;
+    background-color: #ddd;
+}
+
+.btn-role {
+    border: 3px solid #343a40;
+    border-radius: 0px;
+    background-color: #fff;
+}
+
+.btn-icon {
+    font-size: 30px;
+}
+
+.btn-text-role {
+    font-size: 1.2rem;
+}
+
+.contain {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+button:active,
+a:active {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+button:focus,
+a:focus {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+button {
+    text-decoration: none !important;
+}
+
+button:hover
+a:hover {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 1200px) {
+    .card-main-menu {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        border: 3px solid #343a40;
+        background-color: #ddd;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-icons {
+        font-size: 4rem;
+    }
+
+    .mobile-h3 {
+        font-size: 1.7rem;
+    }
+
+    .mobile-h5 {
+        font-size: 1.15rem;
+    }
+
+    .card-main-menu {
+        margin-right: 0rem;
+        margin-left: 0rem;
+        border: 3px solid #343a40;
+        background-color: #ddd;
+        border-radius: 0px;
+    }
+
+    .btn-icon {
+        font-size: 26px;
+    }
+
+    .btn-text-role {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-icons {
+        font-size: 2.75rem;
+    }
+
+    .mobile-h3 {
+        font-size: 1.5rem;
+    }
+
+    .btn-icon {
+        font-size: 23px;
+    }
+
+    .btn-text-role {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .arrange {
+        width: auto !important;
+    }
+
+    .search_w {
+        width: 60% !important;
+    }
+
+    .links {
+        display: flex !important;
+        height: 100% !important;
+    }
+}
